@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-grok",
+  "version": "1.0.0",
+  "description": "Grok Imagine fast text-to-video generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_grok_generate",
+    "acedata_grok_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}

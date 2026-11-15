@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "grok",
+  "consumer_repository": "https://github.com/AceDataCloud/GrokHermes",
+  "canonical_contract": "services/grok.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_grok",
+      "acedatacloud_single_grok"
+    ],
+    "toolset": [
+      "acedatacloud-grok",
+      "acedatacloud-single-grok"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "484fbd34826de42d216b608aa899ddabe4b4279c95c3617a21cf61a248007f5c",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/grok.json": "02b3458c75f50599a350ebe40b1bfc4774275cbef7cd50d5bc0b7bf57b7141b6",
+    "plugin.yaml": "9aad372f73f70f1737e3e8173ee484ca6df037fc2c72f3a3321a5c20720520d7",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "67a82818c622c6eb8871fedff28cf5ccf7dcc1d144b9508096a6af72b877d128",
+    "README.md": "3ba158ef4b8db3c17ccfaee81f30dda09747d3d41b7e9326beef236011c82033",
+    "readme/README_zh_Hans.md": "626d11172066088606c3ee6c387033365115fc3f7fb1d0acff99c865de220468"
+  }
+}
